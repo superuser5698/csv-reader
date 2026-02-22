@@ -1,6 +1,6 @@
 print("welcome to online job tracker :)")
 import subprocess
-from libs import read, write
+import read, write
 
 try:  
     import pandas as pd #type: ignore
@@ -27,5 +27,6 @@ def main():
             break
         else:
             print("I don't understand deal with it I'm a job tracker")
+
 
 main()
